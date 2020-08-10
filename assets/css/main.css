@@ -2,14 +2,19 @@
 body {
   /*background: no-repeat center center fixed url('../../assets/images/bridges.jpeg');*/
   /*background: no-repeat center center fixed url('../../assets/images/125570-bright-grey-plastic-foil-background.jpg');*/
-  background: no-repeat center center fixed url('../../assets/images/125521-black-and-blue-plastic-foil-texture-small.jpg');
-  background-color: #332f32;
+  /*background: no-repeat center center fixed url('../../assets/images/125521-black-and-blue-plastic-foil-texture-small.jpg');*/
+  /*background-color: #332f32;*/
+
+  background-color: #1fc8db;
+  /*background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+  background-image: linear-gradient(141deg, #ffffff 0%, #1fc8db 11%, #000052 75%);
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  font-family: "Josefin Sans", "Tahoma", "sans-serif";
+  /*font-family: "Josefin Sans", "Tahoma", "sans-serif";*/
 }
 
 .grey-transparent {
