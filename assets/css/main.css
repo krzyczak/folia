@@ -1,3 +1,7 @@
+html, body {
+  height:100%;
+  margin:0;
+}
 
 body {
   /*background: no-repeat center center fixed url('../../assets/images/bridges.jpeg');*/
@@ -5,32 +9,40 @@ body {
   /*background: no-repeat center center fixed url('../../assets/images/125521-black-and-blue-plastic-foil-texture-small.jpg');*/
   /*background-color: #332f32;*/
 
-  background-color: #1fc8db;
-  /*background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
-  background-image: linear-gradient(141deg, #ffffff 0%, #1fc8db 11%, #000052 75%);
+  /*background-color: #c6ebff;*/
+  background-color: #fff;
 
-  -webkit-background-size: cover;
+  /*background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #ffffff 0%, #1fc8db 11%, #000052 75%);*/
+
+  /*background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 
   /*font-family: "Josefin Sans", "Tahoma", "sans-serif";*/
 }
 
 .grey-transparent {
-  position: fixed;
+  /*position: fixed;
   top: 0;
-  left: 0;
+  left: 0;*/
   /*background-color: rgba(0,0,0,0.70);*/
   /*background-color: rgba(0,0,0,0.50);*/
   /*background-color: rgba(255,255,255,0.20);*/
-  color: rgba(255,255,255,0.80);
+  /*color: rgba(255,255,255,0.80);*/
   width: 100%;
   height: 100%;
 }
 
 .inside {
   margin: 0 15% 0 15%;
+
+  /*color: rgba(255,255,255,0.80);*/
+  /*color: #9385bc;*/
+  color: #6f6884;
 }
 
 .inside h1 {
@@ -93,9 +105,13 @@ footer {
 
 a {
   text-decoration: none;
-  color: rgb(32,178,180);
+  /*color: rgb(32,178,180);*/
+  color: blue;
 }
 
 a:hover {
-  color: rgba(255, 255, 240,0.70);
+  /*color: rgba(255, 255, 240,0.70);*/
+  /*color: #686f84;*/
+  color: rgb(32,178,180);
+  /*color: #0542fc;*/
 }
